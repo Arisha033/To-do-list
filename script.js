@@ -16,8 +16,7 @@ btn.addEventListener('click',function(){
         }
         inputEl.value = "";
         saveData();
-    }
-);
+    });
 
 listContainer.addEventListener('click',function(e){
     if(e.target.tagName === 'li'){
@@ -25,7 +24,7 @@ listContainer.addEventListener('click',function(e){
         saveData();
     }
     else if(e.target.tagName === 'span'){
-        e.target.parentName.remove();
+        e.target.parentNode.remove();
         saveData();
     }
 });

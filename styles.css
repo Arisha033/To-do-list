@@ -67,7 +67,7 @@ h2{
 
 }
 
-.list-container li.checked{
+.checked{
     color: #555;
     text-decoration: line-through;
 }
